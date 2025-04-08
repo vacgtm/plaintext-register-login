@@ -1,7 +1,6 @@
 import os, time, random, string
 
-crypto_name = "fagcoin"
-crypto_worth_usd = 582.12
+
 plain_text_fn = "identifiers.txt"
 def create_identifier(length):
     chars = string.ascii_letters + string.digits
